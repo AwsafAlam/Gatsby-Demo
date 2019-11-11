@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -25,7 +26,7 @@ const IndexPage = ({data}) => (
           data.allMarkdownRemark.edges.map(post => (
             <div key={post.node.id} className="item mb-5">
               <div className="media">
-                {/* <Image className="mr-3 Image-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-1.jpg" alt="image"/> */}
+              <Img style={{width: 120, height: 120, marginRight: 16}}  fluid={post.node.frontmatter.image.childImageSharp.fluid} />
                 <div className="media-body">
                   <h3 className="title mb-1"><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></h3>
                   <div className="meta mb-1">
@@ -70,6 +71,13 @@ export const pageQuery = graphql `
             description
             date
             path
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

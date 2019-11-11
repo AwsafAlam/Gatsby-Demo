@@ -1,28 +1,33 @@
 import React from 'react';
 // import Helmet from 'react-helmet';
 import { Link } from "gatsby"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { DiscussionEmbed } from 'disqus-react' 
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
+	const disqusConfig = {
+		shortname: "awsa-1",
+		config: { identifier: post.frontmatter.path, title: post.frontmatter.title },
+	}
 
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
       
-      <article class="blog-post px-3 py-5 p-md-5">
-		    <div class="container">
-			    <header class="blog-post-header">
-				    <h2 class="title mb-2">{post.frontmatter.title}</h2>
-				    <div class="meta mb-3"><span class="date">Published on {post.frontmatter.date}</span></div>
+      <article className="blog-post px-3 py-5 p-md-5">
+		    <div className="container">
+			    <header className="blog-post-header">
+				    <h2 className="title mb-2">{post.frontmatter.title}</h2>
+				    <div className="meta mb-3"><span className="date">Published on {post.frontmatter.date}</span></div>
 			    </header>
 			    
-			    <div class="blog-post-body">
-				    <figure class="blog-banner">
-				        <a href="https://made4dev.com"><img class="img-fluid" src="assets/images/blog/blog-post-banner.jpg" alt="blogpic"/></a>
-				        <figcaption class="mt-2 text-center image-caption">{post.frontmatter.title}</figcaption>
+			    <div className="blog-post-body">
+				    <figure className="blog-banner">
+								<Img className="img-fluid"  fluid={post.frontmatter.image.childImageSharp.fluid} />
+								<figcaption className="mt-2 text-center image-caption">{post.frontmatter.title}</figcaption>
 				    </figure>
 		
 					</div>
@@ -30,25 +35,25 @@ export default function Template({ data }) {
 			   
           <div dangerouslySetInnerHTML={{__html: post.html}} />
 				    
-			    <nav class="blog-nav nav nav-justified my-5">
-				  <a class="nav-link-prev nav-item nav-link rounded-left" href="index.html">Previous<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
-				  <a class="nav-link-next nav-item nav-link rounded-right" href="blog-list.html">Next<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
-				</nav>
+			    {/* <nav className="blog-nav nav nav-justified my-5">
+				  <a className="nav-link-prev nav-item nav-link rounded-left" href="index.html">Previous<i className="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+				  <a className="nav-link-next nav-item nav-link rounded-right" href="blog-list.html">Next<i className="arrow-next fas fa-long-arrow-alt-right"></i></a>
+				</nav> */}
 				
-				<div class="blog-comments-section">
+				<div className="blog-comments-section">
 					<div id="disqus_thread"></div>
-					
+					<DiscussionEmbed {...disqusConfig} /> 
 				</div>
 				
 		    </div>
 	    </article>
 	    
 
-      <section class="promo-section theme-bg-light py-5 text-center">
-		    <div class="container">
-			    <h2 class="title">Promo Section Heading</h2>
+      <section className="promo-section theme-bg-light py-5 text-center">
+		    <div className="container">
+			    <h2 className="title">Promo Section Heading</h2>
 			    <p>You can use this section to promote your side projects etc. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-                <figure class="promo-figure">
+                <figure className="promo-figure">
 			        
 			    </figure>
 		    </div>
@@ -67,7 +72,14 @@ export const postQuery = graphql`
         path
         title
         date
-        description
+				description
+				image {
+					childImageSharp {
+						fluid(maxWidth: 300) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
       }
     }
   }

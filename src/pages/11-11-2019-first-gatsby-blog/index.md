@@ -1,6 +1,7 @@
 ---
 path: "/first-post"
 date: "2018-11-11"
+image: ./image1.jpg
 title: "First Blog"
 description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies..."
 ---
