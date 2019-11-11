@@ -1,6 +1,6 @@
 ---
 path: "/first-post"
-date: "11-11-2018"
+date: "2018-11-11"
 title: "First Blog"
 description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies..."
 ---

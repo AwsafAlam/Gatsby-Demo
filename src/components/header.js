@@ -5,8 +5,7 @@ import Image from './image'
 
 const Header = ({ siteTitle }) => (
     <header className="header text-center">	    
-	    <h1 className="blog-name pt-lg-4 mb-0"><a href="index.html">{siteTitle}</a></h1>
-        
+	      
 	    <nav className="navbar navbar-expand-lg navbar-dark" >
            
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,8 +13,8 @@ const Header = ({ siteTitle }) => (
 			</button>
 
 			<div id="navigation" className="collapse navbar-collapse flex-column" >
-				<div className="profile-section pt-3 pt-lg-0">
-				    <Image className="profile-image mb-3 rounded-circle mx-auto" alt="image" />			
+				<div style={{marginTop: 64}} className="profile-section pt-3 pt-lg-0">
+					<div style={{ marginBottom: 35, marginLeft: 35}} ><Image /></div>
 					
 					<div className="bio mb-3">Hi, my name is Awsaf Alam. Briefly introduce yourself here. You can also provide a link to the about page.<br/><a href="about.html">Find out more about me</a></div>
 					<ul className="social-list list-inline py-3 mx-auto">
