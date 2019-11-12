@@ -16,7 +16,11 @@ const Header = ({ siteTitle }) => (
 				<div style={{marginTop: 64}} className="profile-section pt-3 pt-lg-0">
 					<div style={{ marginBottom: 35, marginLeft: 35}} ><Image /></div>
 					
-					<div className="bio mb-3">Hi, my name is Awsaf Alam. Briefly introduce yourself here. You can also provide a link to the about page.<br/><a href="about.html">Find out more about me</a></div>
+					<div className="bio mb-3">Hi, my name is Awsaf Alam. I am a passionate developer waiting for the opportunity to learn new things. Development of any kind is a creative process, and I am happy to be a part of it. I love to work on all platforms, Android and Web developments, but currently I am focusing my efforts in Nodejs and MERN stack..
+						<br/>
+						<br/>
+						<Link to='/about'>Find out more about me</Link>
+					</div>
 					<ul className="social-list list-inline py-3 mx-auto">
 			            {/* <li className="list-inline-item"><a href="https://www."><i className="fab fa-twitter fa-fw"></i></a></li> */}
 			            <li className="list-inline-item"><a href="https://www.linkedin.com/in/awsafalam"><i className="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -40,7 +44,7 @@ const Header = ({ siteTitle }) => (
 				</ul>
 				
 				<div className="my-2 my-md-3">
-				    <a className="btn btn-primary" href="https://facebook.com/awsaf.anindo" rel="noopener noreferrer" target="_blank">Get in Touch</a>
+				    <a className="btn btn-primary" href="https://www.facebook.com/awsafanindo" rel="noopener noreferrer" target="_blank">Get in Touch</a>
 				</div>
 			</div>
 		</nav>

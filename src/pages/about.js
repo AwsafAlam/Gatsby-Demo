@@ -23,7 +23,7 @@ const SecondPage = () => (
 								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">0123 4567 890</a></li>
 								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:awsafalam@gmail.com">awsafalam@gmail.com</a></li>
 								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://www.awsafdev.netlify.com">www.awsafdev.netlify.com</a></li>
-								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>New York</li>
+								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Dhaka, Bangladesh</li>
 							</ul>
 						</div>
 					</div>
@@ -36,7 +36,7 @@ const SecondPage = () => (
 							<Image style={{margin: 0}} class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" />
 						</div>
 						<div class="media-body text-left">
-							<p class="mb-0">Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
+							<p class="mb-0">Hi, my name is Awsaf Alam. I am a passionate developer waiting for the opportunity to learn new things. Development of any kind is a creative process, and I am happy to be a part of it. I love to work on all platforms, Android and Web developments, but currently I am focusing my efforts in Nodejs and MERN stack..</p>
 						</div>
 					</div>
 				</div>
@@ -48,74 +48,63 @@ const SecondPage = () => (
 								<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Software Engineer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Google | 2019 - Present</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cheif Technology Officer</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Online Sohopathi | Dec 2018 - Present</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+										<p>I have developed the front-end interface for https://onlinesohopathi.com/ this was developed from scratch using vanilla javascript, and Materialize library. </p>
 										<ul class="resume-list">
-											<li>Lorem ipsum dolor sit amet, consectetuer.</li>
-											<li>Aenean commodo ligula eget dolor.</li>
-											<li>Etiam ultricies nisi vel augue.</li>
+											<li>Scalable architecture design</li>
+											<li>Migrated the entire database to a NoSQL based design</li>
+											<li>Improved performance and security issues</li>
 										</ul>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Lead Frontend Developer</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Online Sohopathi | 2017 - 2018</div>
+										
+									</div>
+									<div class="item-content">
+										<p>I have developed the front-end interface for https://onlinesohopathi.com/ this was developed from scratch using vanilla javascript, and Materialize library. </p>
 									</div>
 								</div>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Lead Software Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Apple | 2016 - 2019</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Junior Software Developer</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Headless Technologies | May 2019 - Oct 2019</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
+										<p>Currently working on a Machine Learning driven chat platform https://engaze.ai/ this was developed using nodejs and React.Also worked on several oder client projects, and web applications.</p>
 										<ul class="resume-list">
-											<li>Lorem ipsum dolor sit amet, consectetuer.</li>
-											<li>Aenean commodo ligula eget dolor.</li>
+											<li>Developed a client website using ReactJS.</li>
+											<li>Dialogflow and facebook webhook integration with Nodejs</li>
 										</ul>
 									</div>
 								</div>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Software Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Dropbox | 2014 - 2016</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Kolpobd | Jun 2018 - Feb 2019</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+										<p>Worked  on an order management and delivery system for the company.</p>
 									</div>
 								</div>
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Uber | 2013 - 2014</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">WebMaster</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">BUET Robotics Society | 2018 - Present</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p>
+										<p>I was in charge of maintaining and updating the main website http://buetroboticssociety.com/ </p>
 									</div>
 								</div>
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Backend Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Amazon | 2014 - 2016</div>
-										
-									</div>
-									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Frontend Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Startup | 2013 - 2014</div>
-										
-									</div>
-									<div class="item-content">
-										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p>
-									</div>
-								</div>
-								
 							</section>
 
 							
@@ -123,35 +112,35 @@ const SecondPage = () => (
 								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Lorem Ipsum</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Android Studio / Java</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
 										
 									</div>
 									<div class="item-content">
-										<p>You can use this section for your side projects. You can as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+										<p>I have worked on several android based projects, one of which was developing a health monitoring App for CSE Fest Hackathon 2019. Similarly I have developed other apps as well for other competitions etc, all of which are present in github.</p>
 										
 										
 									</div>
 								</div>
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Sed Fringilla</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Language Learning Application</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
 										
 									</div>
 									<div class="item-content">
-										<p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+										<p>I am currently working on a Language learning application, as part of my Software Engineering course project in Flutter.</p>
 										
 									</div>
 								</div>
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Praesent </h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Automatic Code Repair</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source</div>
 										
 									</div>
 									<div class="item-content">
-										<p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+										<p>A research project which aims in automatic code repair using Machine Learning. As part of the project I am making a web crawler in python using Scrapy which will crawl data from github. We will use to train our models. </p>
 										
 									</div>
 								</div>
@@ -185,15 +174,21 @@ const SecondPage = () => (
 									<section class="education-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
 										<ul class="list-unstyled resume-education-list">
-											<li class="mb-3">
-												<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-												<div class="resume-degree-org text-muted">University College London</div>
-												<div class="resume-degree-time text-muted">2010 - 2011</div>
-											</li>
 											<li>
-												<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-												<div class="resume-degree-org text-muted">Imperial College London</div>
-												<div class="resume-degree-time text-muted">2007 - 2010</div>
+												<div class="resume-degree font-weight-bold">BSc Computer Science and Engineering</div>
+												<div class="resume-degree-org text-muted">Bangladesh University of Engineering & Technology</div>
+												<div class="resume-degree-time text-muted">2015 - Present</div>
+												<div class="resume-degree-time text-muted">CGPA - 3.40</div>
+											</li>
+											<li class="mb-3">
+												<div class="resume-degree font-weight-bold">4 A*   in  EDEXCEL A LEVELS</div>
+												<div class="resume-degree-org text-muted">Maple Leaf International School</div>
+												<div class="resume-degree-time text-muted">2013 - 2015</div>
+											</li>
+											<li class="mb-3">
+												<div class="resume-degree font-weight-bold">6 A* & 1B  in  EDEXCEL  O LEVELS</div>
+												<div class="resume-degree-org text-muted">Maple Leaf International School</div>
+												<div class="resume-degree-time text-muted">2011 - 2013</div>
 											</li>
 										</ul>
 									</section>
@@ -213,8 +208,8 @@ const SecondPage = () => (
 									<section class="skills-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
 										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">English <span class="text-muted">(Native)</span></li>
-											<li>Spanish <span class="text-muted">(Professional)</span></li>
+											<li class="mb-2">Bengali <span class="text-muted">(Native)</span></li>
+											<li>English <span class="text-muted">(Professional)</span></li>
 										</ul>
 									</section>
 									<section class="skills-section py-3">
