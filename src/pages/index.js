@@ -1,19 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Img from "gatsby-image"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
       <section className="cta-section theme-bg-light py-5">
 		    <div className="container text-center">
 			    <h2 className="heading">Hi, I'm Awsaf</h2>
 			    <div className="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
 			    <form className="signup-form form-inline justify-content-center pt-3">
               <div className="form-group">
-                  <label className="sr-only">Your email</label>
+                  <label htmlFor="semail" className="sr-only">Your email</label>
                   <input type="email" id="semail" name="semail1" className="form-control mr-md-1 semail" placeholder="Enter email"/>
               </div>
               <button type="submit" className="btn btn-primary">Subscribe</button>

@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Image from "../components/image"
 import "./about.scss"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <Seo title="Page two" />
 		<Link to='/download'>Download Resume here</Link>
 		<div className="container px-3 px-lg-5">
 			<article className="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">

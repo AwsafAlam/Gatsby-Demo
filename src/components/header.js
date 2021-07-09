@@ -23,10 +23,10 @@ const Header = ({ siteTitle }) => (
 					</div>
 					<ul className="social-list list-inline py-3 mx-auto">
 			            {/* <li className="list-inline-item"><a href="https://www."><i className="fab fa-twitter fa-fw"></i></a></li> */}
-			            <li className="list-inline-item"><a href="https://www.linkedin.com/in/awsafalam"><i className="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li className="list-inline-item"><a href="https://www.github.com/AwsafAlam"><i className="fab fa-github-alt fa-fw"></i></a></li>
+			            <li className="list-inline-item"><a href="https://www.linkedin.com/in/awsafalam"><i aria-label="linkedin" className="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li className="list-inline-item"><a href="https://www.github.com/AwsafAlam"><i aria-label="github" className="fab fa-github-alt fa-fw"></i></a></li>
 			            {/* <li className="list-inline-item"><a href="https://www."><i className="fab fa-stack-overflow fa-fw"></i></a></li> */}
-			            <li className="list-inline-item"><a href="https://www.facebook.com/awsafanindo"><i className="fab fa-codepen fa-fw"></i></a></li>
+			            <li className="list-inline-item"><a href="https://www.facebook.com/awsafanindo"><i aria-label="facebook" className="fab fa-codepen fa-fw"></i></a></li>
 			        </ul>
 			        <hr/> 
 				</div>

@@ -1,9 +1,9 @@
 import React from 'react';
 // import Helmet from 'react-helmet';
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { DiscussionEmbed } from 'disqus-react' 
 
 export default function Template({ data }) {
@@ -15,7 +15,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <Seo title={post.frontmatter.title} />
       
       <article className="blog-post px-3 py-5 p-md-5">
 		    <div className="container">
